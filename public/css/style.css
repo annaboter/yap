@@ -17,5 +17,19 @@ body {
   height: 320%;
   width: auto;
   rotate: -5deg;
-  margin-top: 170px;
+  margin-top: 180px;
+}
+
+@media (max-width: 767px) {
+  #header-img-yap {
+    height: 280%;
+    margin-top: 180px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header-img-yap {
+    height: 180%;
+    margin-top: 180px;
+  }
 }
