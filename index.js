@@ -1,5 +1,7 @@
+// Server side
 import express from 'express';
 import bodyParser from 'body-parser';
+import { EventEmitter } from 'node:events';
 
 const app = express();
 const port = 3000;

@@ -1,3 +1,13 @@
 <%- include("./partials/header.ejs") %>
 
+<!-- on keypress show form (add/removeclasslist) or set display to none -->
+<!-- maybe fade out h1? -->
+<main class="container" id="index-main">
+  <h1 id="index-title">Start typing to start yapping</h1>
+  <form id="yap-form" action="/yap" method="POST">
+    <textarea name="yap" id="yap-area" cols="30" rows="10"></textarea>
+    <button type="submit" id="yap-button">Yap</button>
+  </form>
+</main>
+
 <%- include("./partials/footer.ejs") %>
