@@ -12,6 +12,12 @@ app.get('/', (req, res) => {
   res.render('index.ejs');
 });
 
+app.post('/yap', (req, res) => {
+  console.log(req.body);
+  res.send('Yapped!');
+});
+
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
